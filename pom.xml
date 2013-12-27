@@ -17,83 +17,83 @@
   
 <!-- 
   #this library needs to be installed on your local maven repository
- mvn install:install-file -Dfile=libs/android-support-v4.jar -DgroupId=com.google -DartifactId=android-support-v4 -Dversion=1 -Dpackaging=jar 
+ mvn install:install-file -Dfile=libs/android-support-v4.jar -DgroupId=com.google -DartifactId=android-support-v4 -Dversion=2 -Dpackaging=jar 
 -->
 
     <dependency>
       <groupId>com.google</groupId>
       <artifactId>android-support-v4</artifactId>
-      <version>1</version>
+      <version>2</version>
         </dependency>
 
 <!-- 
   #this library needs to be installed on your local maven repository
-  mvn install:install-file -Dfile=libs/gcm.jar -DgroupId=gcm -DartifactId=gcm -Dversion=1 -Dpackaging=jar 
+  mvn install:install-file -Dfile=libs/gcm.jar -DgroupId=gcm -DartifactId=gcm -Dversion=2 -Dpackaging=jar 
 -->
 
     <dependency>
       <groupId>gcm</groupId>
       <artifactId>gcm</artifactId>
-      <version>1</version>
+      <version>2</version>
       </dependency>
   
     <dependency>
       <groupId>com.google.api-client</groupId>
       <artifactId>google-api-client</artifactId>
-      <version>1.17.0-rc</version>
+      <version>1.15.0-rc</version>
     </dependency>
 
     <dependency>
       <groupId>com.google.api-client</groupId>
       <artifactId>google-api-client-android</artifactId>
-      <version>1.17.0-rc</version>
+      <version>1.15.0-rc</version>
     </dependency>
 
     <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client</artifactId>
-      <version>1.17.0-rc</version>
+      <version>1.15.0-rc</version>
     </dependency>
   
     <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client-android</artifactId>
-      <version>1.17.0-rc</version>
+      <version>1.15.0-rc</version>
     </dependency>
 
     <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client-gson</artifactId>
-      <version>1.17.0-rc</version>
+      <version>1.15.0-rc</version>
     </dependency>
 
     <dependency>
     <groupId>com.google.http-client</groupId>
     <artifactId>google-http-client-jackson</artifactId>
-    <version>1.17.0-rc</version>
+    <version>1.15.0-rc</version>
     </dependency>
 
     <dependency>
       <groupId>com.google.http-client</groupId>
       <artifactId>google-http-client-jackson2</artifactId>
-      <version>1.17.0-rc</version>
+      <version>1.15.0-rc</version>
     </dependency>
 
     <dependency>
       <groupId>com.google.oauth-client</groupId>
       <artifactId>google-oauth-client</artifactId>
-      <version>1.17.0-rc</version>
+      <version>1.15.0-rc</version>
     </dependency>
 
 <!-- 
   #this library needs to be installed on your local maven repository
-  mvn install:install-file -Dfile=libs/google-play-services.jar -DgroupId=com.google.android.gms -DartifactId=google-play-services -Dversion=13 -Dpackaging=jar 
+  mvn install:install-file -Dfile=libs/google-play-services.jar -DgroupId=com.google.android.google-play-services -DartifactId=google-play-services -Dversion=1 -Dpackaging=jar 
 --> 
 
     <dependency>
-      <groupId>com.google.android.gms</groupId>
+      <groupId>com.google.android.google-play-services</groupId>
       <artifactId>google-play-services</artifactId>
-      <version>13</version>
+      <version>1</version>
     </dependency>
 
 
